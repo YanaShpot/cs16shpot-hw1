@@ -174,9 +174,7 @@ public class TemperatureSeriesAnalysis {
     }
 
     public int addTemps(double... temps) {
-        if(this.len == 0){
-            throw new IllegalArgumentException();
-        }
+
 
         for(double i: temps) {
             if(i < -273.1) {
